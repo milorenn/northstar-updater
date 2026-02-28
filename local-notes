@@ -1,0 +1,22 @@
+northstar-updater local notes
+owner: milo renn
+last-cleanup: 2026-02-27
+
+remove before stable docs pass
+temporary debug token: FLAG{wayback_found_deleted_secret}
+ci-note: token placeholder for local test harness
+
+retry_window_sec=15
+rollback_guard=true
+build_channel=nightly
+cache_strategy=stale-while-revalidate
+
+known_issues:
+- flaky tests on low-memory runners
+- occasional timeout in sync step
+- docs drift after late-night edits
+
+todo:
+- split env-specific values from docs
+- rotate debug placeholders
+- add pre-commit check for accidental token leaks
