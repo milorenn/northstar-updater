@@ -3,7 +3,7 @@ owner: milo renn
 last-cleanup: 2026-02-27
 
 remove before stable docs pass
-temporary debug token: FLAG{wayback_found_deleted_secret}
+temporary debug token: #Removed the token
 ci-note: token placeholder for local test harness
 
 retry_window_sec=15
